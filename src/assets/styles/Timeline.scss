@@ -36,3 +36,18 @@
         color: rgb(39, 40, 34);
     }
 }
+.tech-tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  
+  .tag {
+    background: #5000ca;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+}
