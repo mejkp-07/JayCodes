@@ -8,8 +8,10 @@ import {
   Navigation,
   Footer,
 } from "./components";
+import Certification from "./components/Certification";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+import { Certificate } from "crypto";
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
@@ -34,6 +36,7 @@ function App() {
             <Expertise/>
             <Timeline/>
             <Project/>
+            <Certification/>
             <Contact/>
         </FadeIn>
         <Footer />
