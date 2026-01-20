@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/JayCodes/static/css/main.c7faae53.css",
-    "main.js": "/JayCodes/static/js/main.17747cb7.js",
+    "main.css": "/JayCodes/static/css/main.1b4fdc26.css",
+    "main.js": "/JayCodes/static/js/main.f0c98d98.js",
     "static/js/453.e7f01505.chunk.js": "/JayCodes/static/js/453.e7f01505.chunk.js",
     "static/media/mock10.png": "/JayCodes/static/media/mock10.2d05b02ba569a430a255.png",
+    "static/media/photo.jpg": "/JayCodes/static/media/photo.97ed71710b8fc0a8295c.jpg",
     "static/media/mock09.png": "/JayCodes/static/media/mock09.e18677ccfc932e52d754.png",
     "static/media/mock08.png": "/JayCodes/static/media/mock08.13f46873fdbd382f4b76.png",
     "static/media/mock04.png": "/JayCodes/static/media/mock04.f7b5679efade992a078c.png",
@@ -16,12 +17,12 @@
     "static/media/mock02.png": "/JayCodes/static/media/mock02.bced48ae9cdda3acf1a3.png",
     "static/media/mock03.png": "/JayCodes/static/media/mock03.a4600719e0b5d2a3155b.png",
     "index.html": "/JayCodes/index.html",
-    "main.c7faae53.css.map": "/JayCodes/static/css/main.c7faae53.css.map",
-    "main.17747cb7.js.map": "/JayCodes/static/js/main.17747cb7.js.map",
+    "main.1b4fdc26.css.map": "/JayCodes/static/css/main.1b4fdc26.css.map",
+    "main.f0c98d98.js.map": "/JayCodes/static/js/main.f0c98d98.js.map",
     "453.e7f01505.chunk.js.map": "/JayCodes/static/js/453.e7f01505.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7faae53.css",
-    "static/js/main.17747cb7.js"
+    "static/css/main.1b4fdc26.css",
+    "static/js/main.f0c98d98.js"
   ]
 }
