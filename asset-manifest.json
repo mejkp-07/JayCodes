@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/JayCodes/static/css/main.f0b6062d.css",
+    "main.css": "/JayCodes/static/css/main.9b4b8fba.css",
     "main.js": "/JayCodes/static/js/main.56968346.js",
     "static/js/453.e7f01505.chunk.js": "/JayCodes/static/js/453.e7f01505.chunk.js",
     "static/media/photo.jpg": "/JayCodes/static/media/photo.97ed71710b8fc0a8295c.jpg",
@@ -13,12 +13,12 @@
     "static/media/javaUdemy.png": "/JayCodes/static/media/javaUdemy.932a0032f4833c4fc4e5.png",
     "static/media/keeperApp.png": "/JayCodes/static/media/keeperApp.8be49b90253ba865e2f9.png",
     "index.html": "/JayCodes/index.html",
-    "main.f0b6062d.css.map": "/JayCodes/static/css/main.f0b6062d.css.map",
+    "main.9b4b8fba.css.map": "/JayCodes/static/css/main.9b4b8fba.css.map",
     "main.56968346.js.map": "/JayCodes/static/js/main.56968346.js.map",
     "453.e7f01505.chunk.js.map": "/JayCodes/static/js/453.e7f01505.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0b6062d.css",
+    "static/css/main.9b4b8fba.css",
     "static/js/main.56968346.js"
   ]
 }
