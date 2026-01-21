@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.css": "/JayCodes/static/css/main.1b4fdc26.css",
-    "main.js": "/JayCodes/static/js/main.9ecd166f.js",
+    "main.css": "/JayCodes/static/css/main.f0b6062d.css",
+    "main.js": "/JayCodes/static/js/main.56968346.js",
     "static/js/453.e7f01505.chunk.js": "/JayCodes/static/js/453.e7f01505.chunk.js",
     "static/media/photo.jpg": "/JayCodes/static/media/photo.97ed71710b8fc0a8295c.jpg",
-    "static/media/mock09.png": "/JayCodes/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/JayCodes/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/JayCodes/static/media/mock04.f7b5679efade992a078c.png",
+    "static/media/weatherApp.png": "/JayCodes/static/media/weatherApp.d9edce5e193d97d1c790.png",
     "static/media/infosys.png": "/JayCodes/static/media/infosys.8115d95db6c97eb0d871.png",
     "static/media/bg-light.png": "/JayCodes/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/JayCodes/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/JayCodes/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock06.png": "/JayCodes/static/media/mock06.ea816617e0d0fa0f63ca.png",
     "static/media/bg-dark.png": "/JayCodes/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock01.png": "/JayCodes/static/media/mock01.61bd486a54bf6e17ee5a.png",
     "static/media/webInternshala.png": "/JayCodes/static/media/webInternshala.faea723712efff77aaf4.png",
-    "static/media/mock02.png": "/JayCodes/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/JayCodes/static/media/mock03.a4600719e0b5d2a3155b.png",
     "static/media/intel.png": "/JayCodes/static/media/intel.b4f639355c5f02a01576.png",
     "static/media/javaUdemy.png": "/JayCodes/static/media/javaUdemy.932a0032f4833c4fc4e5.png",
+    "static/media/keeperApp.png": "/JayCodes/static/media/keeperApp.8be49b90253ba865e2f9.png",
     "index.html": "/JayCodes/index.html",
-    "main.1b4fdc26.css.map": "/JayCodes/static/css/main.1b4fdc26.css.map",
-    "main.9ecd166f.js.map": "/JayCodes/static/js/main.9ecd166f.js.map",
+    "main.f0b6062d.css.map": "/JayCodes/static/css/main.f0b6062d.css.map",
+    "main.56968346.js.map": "/JayCodes/static/js/main.56968346.js.map",
     "453.e7f01505.chunk.js.map": "/JayCodes/static/js/453.e7f01505.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b4fdc26.css",
-    "static/js/main.9ecd166f.js"
+    "static/css/main.f0b6062d.css",
+    "static/js/main.56968346.js"
   ]
 }
