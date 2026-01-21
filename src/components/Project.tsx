@@ -1,8 +1,6 @@
 import React from "react";
-import shopverseImage from '../assets/images/shopverse.png'; // You'll need to add this image
-import hiresphereImage from '../assets/images/hiresphere.png'; // You'll need to add this image
-import javaUdemy from '../assets/images/javaUdemy.png';
-import internshala from '../assets/images/webInternshala.png';
+import shopverseImage from '../assets/images/shopverse.png';
+import hiresphereImage from '../assets/images/hiresphere.png';
 import weatherApp from '../assets/images/weatherApp.png';
 import keeperApp from '../assets/images/keeperApp.png';
 import '../assets/styles/Project.scss';
@@ -14,7 +12,7 @@ function Project() {
         <div className="projects-grid">
             <a href="https://github.com/mejkp-07/ECommerce_Using-SpringBoot_SprindDataJPA_REST_React" target="_blank" rel="noreferrer">
             <div className="project">
-                <img src={javaUdemy} className="zoom" alt="Shopverse E-commerce Platform" width="100%"/>
+                <img src={shopverseImage} className="zoom" alt="Shopverse E-commerce Platform" width="100%"/>
                 <h2>Shopverse</h2>
                 <div className="tech-stack">
                     <span className="tech-tag">React.js</span>
@@ -31,7 +29,7 @@ function Project() {
             </a>
             <a href="https://github.com/mejkp-07/JobPortal_Using-SpringBoot_SprindDataJPA_REST_React" target="_blank" rel="noreferrer">
             <div className="project">
-                <img src={internshala} className="zoom" alt="HireSphere Job Portal" width="100%"/>
+                <img src={hiresphereImage} className="zoom" alt="HireSphere Job Portal" width="100%"/>
                 <h2>HireSphere</h2>
                 <div className="tech-stack">
                     <span className="tech-tag">SpringBoot</span>
