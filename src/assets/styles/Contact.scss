@@ -46,3 +46,330 @@ form {
   width: 100% !important;
   margin-bottom: 15px !important;
 }
+
+/* Option 1: Icon Cards */
+.contact-info-section.attractive {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  flex: 1;
+  min-width: 250px;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 20px rgba(80, 0, 202, 0.1);
+  border: 1px solid rgba(80, 0, 202, 0.1);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(80, 0, 202, 0.15);
+}
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #5000ca 0%, #3a0099 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.contact-text h4 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contact-text p {
+  margin: 0;
+  color: #5000ca;
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-size: 0.95rem;
+  word-break: break-all;
+}
+
+/* Option 2: Badge Design */
+.contact-info-section.badges {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-badge {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+  border-radius: 10px;
+  padding: 15px 20px;
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+}
+
+.contact-badge:hover {
+  border-color: #5000ca;
+  transform: translateX(5px);
+}
+
+.badge-icon {
+  font-size: 1.5rem;
+  margin-right: 15px;
+  width: 40px;
+  text-align: center;
+}
+
+.badge-content {
+  flex: 1;
+}
+
+.badge-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #6c757d;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.badge-value {
+  display: block;
+  color: #5000ca;
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-weight: 500;
+}
+
+.copy-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 8px;
+  border-radius: 6px;
+  transition: all 0.2s;
+  opacity: 0.7;
+}
+
+.copy-btn:hover {
+  background: #5000ca;
+  color: white;
+  opacity: 1;
+}
+
+/* Option 3: Gradient Cards */
+.contact-info-section.gradient-cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-gradient-card {
+  flex: 1;
+  min-width: 250px;
+  border-radius: 16px;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-gradient-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  border-radius: 16px 16px 0 0;
+}
+
+.email-card {
+  background: linear-gradient(135deg, #f8f0ff 0%, #ffffff 100%);
+  border: 2px solid #e6d6ff;
+}
+
+.email-card::before {
+  background: linear-gradient(90deg, #5000ca, #8a2be2);
+}
+
+.phone-card {
+  background: linear-gradient(135deg, #f0f8ff 0%, #ffffff 100%);
+  border: 2px solid #d6eaff;
+}
+
+.phone-card::before {
+  background: linear-gradient(90deg, #0071c5, #00b4d8);
+}
+
+.contact-gradient-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email-card .card-icon {
+  background: rgba(80, 0, 202, 0.1);
+  color: #5000ca;
+}
+
+.phone-card .card-icon {
+  background: rgba(0, 113, 197, 0.1);
+  color: #0071c5;
+}
+
+.card-content h3 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.card-content p {
+  margin: 0 0 10px 0;
+  color: #5000ca;
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-weight: 500;
+}
+
+.card-action {
+  font-size: 0.85rem;
+  color: #6c757d;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.contact-gradient-card:hover .card-action {
+  transform: translateX(5px);
+  color: #5000ca;
+}
+
+/* Option 4: Minimal Highlight */
+.contact-info-section.minimal-highlight {
+  margin-bottom: 30px;
+}
+
+.contact-highlight {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  border-left: 5px solid #5000ca;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.highlight-dot {
+  width: 12px;
+  height: 12px;
+  background: #5000ca;
+  border-radius: 50%;
+  margin-top: 8px;
+  position: relative;
+}
+
+.highlight-dot::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(80, 0, 202, 0.2);
+  top: -4px;
+  left: -4px;
+}
+
+.highlight-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.highlight-label {
+  font-weight: 700;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.highlight-availability {
+  color: #28a745;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.highlight-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.item-icon {
+  font-size: 1.2rem;
+  width: 30px;
+}
+
+.highlight-item a {
+  color: #5000ca;
+  text-decoration: none;
+  font-family: 'Monaco', 'Courier New', monospace;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.highlight-item a:hover {
+  color: #3a0099;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-info-section.attractive,
+  .contact-info-section.gradient-cards {
+    flex-direction: column;
+  }
+  
+  .contact-card,
+  .contact-gradient-card {
+    min-width: 100%;
+  }
+  
+  .contact-highlight {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .highlight-dot {
+    margin-top: 0;
+  }
+}
