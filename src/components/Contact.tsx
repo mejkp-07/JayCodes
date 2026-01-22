@@ -78,12 +78,12 @@ function Contact() {
             </div>
             <div className="card-content">
               <h3>Call or message me</h3>
-              <p>+91 772 2836 405</p>
+              <p>+91 7722836405</p>
               <span className="card-action">Click to call →</span>
             </div>
           </a>
         </div>
-          <Box
+          {/* <Box
             ref={form}
             component="form"
             noValidate
@@ -134,7 +134,7 @@ function Contact() {
             <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
               Send
             </Button>
-          </Box>
+          </Box> */}
         </div>
       </div>
     </div>
