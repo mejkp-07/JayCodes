@@ -167,7 +167,6 @@ form {
   opacity: 1;
 }
 
-/* Option 3: Gradient Cards */
 .contact-info-section.gradient-cards {
   display: flex;
   gap: 20px;
@@ -252,8 +251,7 @@ form {
   margin: 0 0 10px 0;
   color: #5000ca;
   font-family: 'Monaco', 'Courier New', monospace;
-  font-weight: 700;
-  font-size: 27px;
+  font-weight: 500;
 }
 
 .card-action {
@@ -266,91 +264,6 @@ form {
 .contact-gradient-card:hover .card-action {
   transform: translateX(5px);
   color: #5000ca;
-}
-
-/* Option 4: Minimal Highlight */
-.contact-info-section.minimal-highlight {
-  margin-bottom: 30px;
-}
-
-.contact-highlight {
-  background: white;
-  border-radius: 12px;
-  padding: 25px;
-  border-left: 5px solid #5000ca;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-  display: flex;
-  gap: 20px;
-  align-items: flex-start;
-}
-
-.highlight-dot {
-  width: 12px;
-  height: 12px;
-  background: #5000ca;
-  border-radius: 50%;
-  margin-top: 8px;
-  position: relative;
-}
-
-.highlight-dot::after {
-  content: '';
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: rgba(80, 0, 202, 0.2);
-  top: -4px;
-  left: -4px;
-}
-
-.highlight-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.highlight-label {
-  font-weight: 700;
-  color: #333;
-  font-size: 1.2rem;
-}
-
-.highlight-availability {
-  color: #28a745;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-.highlight-details {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.highlight-item {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.item-icon {
-  font-size: 1.2rem;
-  width: 30px;
-}
-
-.highlight-item a {
-  color: #5000ca;
-  text-decoration: none;
-  font-family: 'Monaco', 'Courier New', monospace;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.highlight-item a:hover {
-  color: #3a0099;
-  text-decoration: underline;
 }
 
 /* Responsive */
