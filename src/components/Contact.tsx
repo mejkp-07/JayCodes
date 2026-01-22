@@ -65,7 +65,7 @@ function Contact() {
             </div>
             <div className="card-content">
               <h3>Send me an email</h3>
-              <p>jaykumar3799@gmail.com</p>
+              <p className="email-text">jaykumar3799@gmail.com</p>
               <span className="card-action">Click to compose →</span>
             </div>
           </a>
@@ -78,7 +78,7 @@ function Contact() {
             </div>
             <div className="card-content">
               <h3>Call or message me</h3>
-              <p>+91 7722836405</p>
+              <p className="phone-text">+91 7722836405</p>
               <span className="card-action">Click to call →</span>
             </div>
           </a>
