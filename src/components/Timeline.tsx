@@ -61,7 +61,7 @@ function Timeline() {
               <div className="tech-tags">
                 <span className="tag">React.js</span>
                 <span className="tag">Node.js</span>
-                <span className="tag">Express.js</span>
+                <span className="tag">Java</span>
                 <span className="tag">Agile</span>
                 <span className="tag">Git</span>
               </div>
