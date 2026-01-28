@@ -34,10 +34,7 @@ const backendAndDatabaseLabels = [
 const devopsAndCloudLabels = [
     "AWS",
     "Docker",
-    "Elastic Beanstalk",
-    "RDS",
-    "ECS",
-    "ECR",
+    "Kubernetes",
     "Maven",
     "Git",
     "SonarQube",
