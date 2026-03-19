@@ -1,9 +1,8 @@
 {
   "files": {
     "main.css": "/JayCodes/static/css/main.fe33b7b7.css",
-    "main.js": "/JayCodes/static/js/main.5714a005.js",
+    "main.js": "/JayCodes/static/js/main.12e32d22.js",
     "static/js/453.e7f01505.chunk.js": "/JayCodes/static/js/453.e7f01505.chunk.js",
-    "static/media/photo.jpg": "/JayCodes/static/media/photo.97ed71710b8fc0a8295c.jpg",
     "static/media/weatherApp.png": "/JayCodes/static/media/weatherApp.d9edce5e193d97d1c790.png",
     "static/media/shopverse.png": "/JayCodes/static/media/shopverse.4b6f667555d1e4d923c1.png",
     "static/media/infosys.png": "/JayCodes/static/media/infosys.8115d95db6c97eb0d871.png",
@@ -14,13 +13,14 @@
     "static/media/intel.png": "/JayCodes/static/media/intel.b4f639355c5f02a01576.png",
     "static/media/javaUdemy.png": "/JayCodes/static/media/javaUdemy.932a0032f4833c4fc4e5.png",
     "static/media/keeperApp.png": "/JayCodes/static/media/keeperApp.8be49b90253ba865e2f9.png",
+    "static/media/photo.jpg": "/JayCodes/static/media/photo.1b902524e0a8aa83fbbe.jpg",
     "index.html": "/JayCodes/index.html",
     "main.fe33b7b7.css.map": "/JayCodes/static/css/main.fe33b7b7.css.map",
-    "main.5714a005.js.map": "/JayCodes/static/js/main.5714a005.js.map",
+    "main.12e32d22.js.map": "/JayCodes/static/js/main.12e32d22.js.map",
     "453.e7f01505.chunk.js.map": "/JayCodes/static/js/453.e7f01505.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fe33b7b7.css",
-    "static/js/main.5714a005.js"
+    "static/js/main.12e32d22.js"
   ]
 }
